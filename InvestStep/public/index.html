@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/header-logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a8e37f70bb.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Invest Step"/>
+    
+    <title>InvestStep</title>
+
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      
+      }
+      header {
+        width:100%;
+        background-color: #EDDFEF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+        margin-bottom: 70px;
+      
+      }
+      Li, a, button {
+        text-decoration: none;
+        color: #464655;
+
+      }
+
+      .logo {
+        cursor: pointer;
+        height: 50px;
+      }
+      .menu {
+        list-style: none;
+          
+      }
+
+      .menu li {
+        display: inline-block;
+        padding: 0px 30px;
+      }
+
+      .menu li a {
+        transition: all 0.3s ease 0s;
+      }
+
+      .menu li a:hover {
+        color: #94958B;
+      }
+
+      button{
+        padding: 9px 25px;
+        background-color: #464655;
+        color:#EDDFEF;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+
+      button:hover {
+        background-color:#fff;
+        color:#464655
+      }
+
+      footer{
+        background-color: #EDDFEF;
+        width: 100%;
+        bottom: -100px;
+        color:#464655;
+        padding: 50px 0 30px;
+        margin-top: 150px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      .row{
+        width:85%;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+
+      .col{
+        flex-basis: 25%;
+        padding: 10px;    
+      }
+
+
+
+      .logo-footer{
+        width: 40px;
+        margin-bottom: 30px;
+      }
+
+      .col h3{
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+      }
+
+      .underline{
+        width: 100%;
+        height:3px;
+        background-color:#464655;
+        border-radius: 5px;
+        position: absolute;
+        top:25px;
+        box-shadow: 0 0 5px #ccc;
+          
+      }
+
+      ul li {
+        list-style: none;
+        margin-bottom: 12px;
+        text-decoration: none;
+      }
+
+      form{
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        border-bottom: 1px solid #464655;
+        margin-bottom: 50px;
+      }
+
+      form input {
+        width: 100%;
+        background-color:transparent;
+        color:#464655;
+        border: 0;
+        outline: none;
+      }
+
+      .social-media .fab{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color:#464655;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+      hr{
+        width: 90%;
+        border: 0;
+        border-bottom: 1px solid #464655;
+        margin: 20px auto;
+      }
+
+      .copyright{
+        text-align: center;
+      }
+    </style>
+
+  </head>
+
+  <header>
+    <img src="images/investstep.png" class="logo" alt="logo">
+    <nav>
+        <ul class="menu">
+          <li class="item"><a href="/home.html">Home</a></li>
+          <li class="item"><a href="/">Markets</a></li>
+          <li class="item"><a href="https://investstepnews.netlify.app/">News</a></li>
+          <li class="item"><a href="./learn.html">Learn</a></li>
+        </ul>
+    </nav>
+    <a href="https://ellawh.myweb.cs.uwindsor.ca/COMP3340/Project/log.php"><button>Sign In</button></a>
+  </header>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   
+  </body>
+
+  <footer>
+    <div class="row">
+        <div class="col">
+            <img src="images/investstep.png" class="logo-footer" alt="logo">
+            <p>Our mission is to provide investors with the knowledge and resources
+                to financial freedom by building a community for all.</p>
+        </div>
+        <div class="col">
+            <h3>Office <div class="underline"></div></h3>
+            <p>401 Sunset Ave </p>
+            <p>Windsor, Ontario</p>
+            <p>N9B 3P4</p>
+            <h4>(519) 253-3000</h4>
+        </div>
+        <div class="col">
+            <h3>Links <div class="underline"></div></h3>
+            <ul>
+                
+                <li class="footer-li"><a href="/">Markets</a></li>
+                <li class="footer-li"><a href="https://investstepnews.netlify.app/">News</a></li>
+                <li class="footer-li"><a href="/learn.html">Learn</a></li>
+                <li class="footer-li"><a href="https://ellawh.myweb.cs.uwindsor.ca/COMP3340/Project/">Contact Us</a></li>
+
+                
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Newsletter <div class="underline"></div></h3>
+            <form action="">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <p class="copyright">InvestStep &copy; 2021 - All Rights Reserved</p>
+  </footer>
+
+</html>

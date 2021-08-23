@@ -1,0 +1,47 @@
+.News{
+    max-width: 490px;
+    padding: 30px;
+    background: #EDDFEF;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+}
+  
+.AllNews{
+    margin: 30px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+  
+.newsTitle{
+    padding-bottom: 10px;
+    border-bottom: 1px;
+}
+  
+.newsDesc{
+    padding-top: 10px;
+}
+  
+.Title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: #EDDFEF;
+    border: 1px solid rgb(0, 0, 0);
+    width: 99%;
+}
+
+/*CSS so theres a line under the date to seperate the content from the title,author, date*/
+
+  .newsPublished{
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+  
+}
+
+/*CSS to have black border around pictures*/
+.newsPic{
+    border-radius: 5px;
+    margin-left: 6px;
+    width: 407px;
+}
