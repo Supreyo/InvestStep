@@ -16,7 +16,7 @@ Navigate to https://nodejs.org/en/download/ and download for your prefered syste
 Open your terminal and type
 
 ```bash
-git clone https://github.com/ellawh/invest-step
+git clone https://github.com/Supreyo/InvestStep
 ```
 to clone this project.
 
